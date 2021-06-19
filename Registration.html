@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="">
+    <meta charset="utf-8">
+    <title>registration page</title>
+    <link rel="stylesheet" href="css/Registration.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2><span> Design By .</span> Ibrahim Khaled</h2>
+    </div>
+    <div class="form">
+        <form action="thank you page.html" name="registration" method="GET">
+            <div class="parent">
+                <div>
+                    <label for="name">Name</label>
+                </div>
+                <input type="text" name="name" placeholder="First and last name" required>
+            </div>
+            <div class="parent">
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <input type="text" name="email" placeholder="ibrahim@gmail.com" required>
+            </div>
+            <div class="parent">
+                <div>
+                    <label for="username">Create a username</label>
+                </div>
+                <input type="text" name="username" placeholder="username" required>
+            </div>
+            <div class="parent">
+                <div>
+                    <label for="password">Create a password</label>
+                </div>
+                <input type="password" name="password" required>
+            </div>
+            <div class="parent">
+                <div>
+                    <label for="Confirm">Confirm your password</label>
+                </div>
+                <input type="password" name="Confirm" required>
+            </div>
+            <div class="parent">
+                <div>
+                    <label for="birthday">Birthday</label>
+                    <select class="bir" name="birthday" id="">
+                        <option value="">Month</option>
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                    <label for="day">Day</label>
+                    <input id="day" type="number" name="day" placeholder="Day" maxlength="2" required>
+                    <label for="year">Year</label>
+                    <input id="year" type="number" name="year" placeholder="Year" maxlength="4" required>
+                </div>
+            </div>
+            <div class="parent">
+                <div>
+                    <select name="gender" id="">
+                        <option value="">i am..</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="parent">
+                <div>
+                    <label for="Mobile">Mobile phone</label>
+                </div>
+                <input type="number" name="Mobile" placeholder="phone number" maxlength="11" required>
+            </div>  
+            <div class="parent">
+                <div>
+                    <input id="sign" type="submit" value="Sign Up!" name="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
